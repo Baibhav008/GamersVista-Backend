@@ -10,8 +10,8 @@ const userSchema = mongoose.Schema(
         },
 
         about:{type:String , default:"I love gaming", required:true},
-        steamAccount : {type:String, default:"www.steam.com",required:true},
-        epicGamesAccount : {type:String, default:"www.epicgames.com",required:true},
+        steamAccount : {type:String, default:"https://www.steam.com",required:true},
+        epicGamesAccount : {type:String, default:"https://www.epicgames.com",required:true},
         alias : [
             {
                 type:mongoose.Schema.Types.ObjectId,
